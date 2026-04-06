@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+  	int i;
+  	printf("25331A05E5\n");
+  	printf("Using break (stop at 5):\n");
+  	for (i = 1; i <= 10; i++) {
+        	if (i == 5) break;
+        	printf("%d ", i);
+  	}
+  	printf("\n");
+  	printf("Using continue (skip even numbers):\n");
+  	for (i = 1; i <= 10; i++) {
+        	if (i % 2 == 0) continue;
+        	printf("%d ", i);
+  	}
+  	printf("\n");
+  	return 0;
+}
